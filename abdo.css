@@ -1,0 +1,28 @@
+body{
+    background-color: #FFC0CB;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 120px auto;
+    width: fit-content;
+    text-align: center;
+}
+.container a img{
+    animation-name: a1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.container p{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+@keyframes a1 {
+    0%, 50%, 100% {
+         transform: scale(1, 1); 
+        }
+    30%, 80% {
+         transform: scale(0.92, 0.95);
+         }
+}
